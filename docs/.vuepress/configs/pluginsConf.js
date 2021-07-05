@@ -1,4 +1,4 @@
-const secret=require('./configs/secret');
+// const secret=require('./configs/secret');
 module.exports={
   '@vuepress/pwa': {
     serviceWorker: true,
@@ -9,6 +9,6 @@ module.exports={
   },
   '@vuepress/google-analytics':
   {
-    'ga': secret.ga // UA-00000000-0
+    'ga': 'UA-201220432-2' // UA-00000000-0
   }
 }
