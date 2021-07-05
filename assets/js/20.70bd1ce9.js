@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{513:function(t,e,s){"use strict";s.r(e);var n=s(6),r=Object(n.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("p",[this._v("使用vuepress搭建一个新的静态博客\n测试一下pwa")])])}),[],!1,null,null,null);e.default=r.exports}}]);
