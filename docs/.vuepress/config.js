@@ -7,6 +7,7 @@ const socials=require('./configs/socialsConf');
 const valineConfig=require('./configs/valineConf');
 const blogConf=require('./configs/blogConf');
 const pluginsConf=require('./configs/pluginsConf');
+
 module.exports = {
   "title": "尽头的另一个我",
   "description": "满怀希望就会所向披靡",
