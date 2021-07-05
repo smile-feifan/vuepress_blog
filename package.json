@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "author": "zeal",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
-    "upcdn": "vuepress build . && node ./scripts/upcdn.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "cname": "bash cname.sh",
+    "docs:nav": "vuepress nav docs"
   },
   "devDependencies": {
     "glob": "^7.1.6",
