@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "author": "zeal",
+  "author": "尽头的另一个我",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
@@ -11,6 +11,7 @@
     "docs:nav": "vuepress nav docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.8.2",
     "glob": "^7.1.6",
     "mime": "^2.4.4",
     "path": "^0.12.7",
@@ -22,5 +23,5 @@
     "aos": "^2.3.4",
     "vue-class-component": "^7.2.3"
   },
-  "description": "blog for zeal"
+  "description": "blog for private"
 }
