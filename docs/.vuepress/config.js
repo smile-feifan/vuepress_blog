@@ -23,7 +23,7 @@ module.exports = {
   "themeConfig": {
     "nav":navConf,
     "type": "blog",
-    "sidebar": false,
+    "sidebar": 'auto',
     "blogConfig":blogConf,
     "friendLink": friendLink,
     "valineConfig": valineConfig,
@@ -33,17 +33,17 @@ module.exports = {
     "searchMaxSuggestions": 10,
     "lastUpdated": "最新更新时间",
     "author": "尽头的另一个我",
-    "authorAvatar": "favicon.png",
-    "record": "你的备案号 ", //icp备案
+    "authorAvatar": "/favicon.png",
+    // "record": "你的备案号 ", //icp备案
     "startYear": "2021",
     "info": "没有谁的生活会一直完美，但无论什么时候，都要看向前方，满怀希望就会所向披靡",
     "socials":socials,
     "mottos":mottosConf,
     "covers": covers,
-    "codeTheme": "tomorrow"
+    "codeTheme": "tomorrow",
   },
   "markdown": {
-    "lineNumbers": false
+    "lineNumbers": true
   },
   // configureWebpack: (config, isServer) => {
   //   if (!isServer) {

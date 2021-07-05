@@ -6,5 +6,9 @@ module.exports= {
   "tag": {
     "location": 3,
     "text": "标签"
+  },
+  "test":{
+    "location":2,
+    "text":"测试"
   }
 }

@@ -22,7 +22,8 @@ module.exports = [
           var s = document.getElementsByTagName("script")[0]; 
           s.parentNode.insertBefore(hm, s);
         })();
-      `], //百度统计['meta', { name: 'theme-color', content: '#3eaf7c' }],
+      `], //百度统计
+  ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ['meta', {
     name: 'apple-mobile-web-app-capable',
     content: 'yes'

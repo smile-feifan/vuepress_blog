@@ -14,7 +14,7 @@ module.exports=[
   {
     "title": "午后南杂",
     "desc": "Enjoy when you can, and endure when you must.",
-    "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+    "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
     "link": "https://www.recoluan.com"
   },
   {

@@ -10,5 +10,9 @@ module.exports={
   '@vuepress/google-analytics':
   {
     'ga': 'UA-201220432-2' // UA-00000000-0
-  }
+  },
+  // "vuepress-plugin-auto-sidebar": {
+  //   // nav:true
+  // }
+  
 }
